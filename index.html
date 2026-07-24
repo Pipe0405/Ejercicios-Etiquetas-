@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Elementos Quimicos de la Naturaleza</title>
+</head>
+<body>
+
+    <h1>Elementos Quimicos de la Naturaleza</h1>
+    <h2>Actividad realizada para etiquetas</h2>
+
+    <p>Esta pagina recorre con un ciclo <strong>for</strong> una lista de elementos químicos presentes en la naturaleza, mostrando su símbolo, nombre y número atómico.</p>
+
+    <ul>
+        <li>h1, h2 - Títulos principales</li>
+        <li>p - Párrafos de texto</li>
+        <li>ul, li - Lista desordenada</li>
+        <li>strong - Texto en negrita</li>
+        <li>em - Texto en cursiva</li>
+        <li>label - Etiqueta del campo de selección</li>
+        <li>select, option - Lista desplegable</li>
+        <li>button - Botón interactivo</li>
+        <li>div - Contenedor de resultados</li>
+        <li>img - Imagen</li>
+        <li>a - Enlace</li>
+        <li>hr, br - Líneas y saltos</li>
+        <li>table, tr, th, td - Tabla de datos</li>
+        <li> tr, th, td - fila,celda de encabezado,celdas</li>
+    </ul>
+
+    <hr>
+
+    <img src="atomo.png" alt="Representación de un átomo" width="200" height="200">
+
+    <p>Estos elementos son fundamentales para la vida y la naturaleza, como el <em>oxígeno</em> que respiramos o el <em>carbono</em> presente en todo ser vivo.</p>
+
+    <label>Selecciona una categoría:</label>
+    <select id="categoria">
+        <option value="todos">Todos los elementos</option>
+        <option value="metal">Solo metales</option>
+        <option value="gas">Solo gases</option>
+        <option value="nometal">Solo no metales</option>
+    </select>
+    <br><br>
+
+    <button onclick="mostrarElementos()">Mostrar elementos químicos</button>
+
+    <div id="resultado"></div>
+
+    <hr>
+
+    <h2>Tabla resumen</h2>
+    <table border="1">
+        <tr>
+            <th>Elemento</th>
+            <th>Uso en la naturaleza</th>
+        </tr>
+        <tr>
+            <td>Oxígeno</td>
+            <td>Respiración de los seres vivos</td>
+        </tr>
+        <tr>
+            <td>Carbono</td>
+            <td>Base de la materia orgánica</td>
+        </tr>
+    </table>
+
+    <br>
+    <a href="https://www.rsc.org/periodic-table" target="_blank">Ver tabla periódica completa</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
